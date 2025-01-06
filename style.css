@@ -41,3 +41,11 @@ body {
     font-family: 'outfit';
     color: #54504d;
 }
+
+.section1 {
+    width: 100%;
+    height: 182px;
+    background: #fff7fc;
+}
+
+.title-section1 {}
