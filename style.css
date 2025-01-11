@@ -1,7 +1,10 @@
 @font-face {
     font-family: 'outfit';
-    font-family: 'YoungSerif';
     src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'YoungSerif';
     src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
 }
 
@@ -36,8 +39,8 @@ body {
 }
 
 .recipe-info {
-    font-size: 17px;
-    font-weight: 100;
+    font-size: 19px;
+    font-weight: 300;
     font-family: 'outfit';
     color: #54504d;
 }
@@ -46,6 +49,39 @@ body {
     width: 100%;
     height: 182px;
     background: #fff7fc;
+    padding-bottom: 35px;
+    font-family: 'outfit';
 }
 
-.title-section1 {}
+.title-section1 {
+    color: #7a2949;
+    margin-left: 33px;
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+.list-preparation {
+    margin-bottom: 10px;
+    line-height: 35px;
+    font-family: 'outfit';
+    color: #54504d;
+}
+
+.title-section2 {
+    color: #864531;
+    font-family: 'YoungSerif';
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.list-ingradients {
+    font-family: 'outfit';
+    line-height: 35px;
+    font-family: 'outfit';
+    color: #54504d;
+    padding-bottom: 34px;
+}
+
+hr {
+    color: #8d8a87;
+}
